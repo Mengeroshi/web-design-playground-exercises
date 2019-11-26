@@ -1,0 +1,30 @@
+body{
+    width: 550px;
+    color: #444;
+    font-size: 16px;
+    text-align: center;
+}
+h1{
+    color: #013437;
+    font-size: 52px;
+}
+h2{
+    color:#066a6f;
+    font-size: 22px;
+}
+h3{
+    font-size: 16px;
+}
+a{
+    color: #0d99a0;
+}
+a:hover{
+    color:#013437;
+    text-decoration: underline;
+}
+ul{
+    list-style-type: circle;
+}
+hr{
+    color: #666
+}
