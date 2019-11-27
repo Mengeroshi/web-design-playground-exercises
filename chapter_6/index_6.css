@@ -1,0 +1,7 @@
+div{
+    background-image: url(images/images.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    width: 500px;
+    height: 500px;
+}
