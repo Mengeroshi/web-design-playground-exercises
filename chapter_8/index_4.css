@@ -1,0 +1,23 @@
+
+span{
+    font-weight: bold;
+}
+.pullquote{
+    float: right;
+    width: 50%;
+    margin-top: 1.25em 0 1em .25em;
+    padding-top: .5em;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    font-size: 1.05em;
+    font-style:italic ;
+    color: #666;
+
+}
+.pullquote::before{
+    content: "\0201c";
+    float: left;
+    padding: .1em .2em .4em 0;
+    font-size: 5em;
+    line-height: .45em;
+}

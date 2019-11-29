@@ -1,0 +1,18 @@
+.toc{
+    float:right;
+    margin-left: 2em;
+    margin-bottom: 2em;
+    background-color: orangered;
+}
+h3{
+    text-align: center;
+}
+div{
+    text-align: center;
+}
+p{
+    font-style: italic;
+}
+h2{
+    clear: right; /*Despeja la zona superior derecha */
+}

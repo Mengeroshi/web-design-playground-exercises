@@ -1,0 +1,16 @@
+div{
+    border: 1px solid red;
+    background-color: lightcyan;
+    width: 675px;
+}
+
+.colapse{
+    float: left;
+    width: 300px;
+}
+
+.self-clear::after{
+    content: "";
+    display: block;
+    clear: both;
+}
