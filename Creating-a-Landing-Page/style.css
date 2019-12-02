@@ -16,11 +16,10 @@ body {
     padding-bottom: 1em;
     width: 100vw;
     height: 100vh;
-    color: white;
 }
 .header-image{
     float:left;
-    width: 30%;
+    width: 33%;
     margin-top: 3em;
     padding-right: 3em;
     text-align: right;
@@ -30,7 +29,7 @@ body {
     width: 67%;
     margin-top: 4em;
     /*margin-right: .01px;  ANUMA SE SALE DESCALIBRA */ 
-    padding-right: 1em;
+    /*padding-right: 1em;*/
     color:white;
 
 }
@@ -51,3 +50,106 @@ body {
     background-color: darkorchid;
 }
 
+.description{
+    width: 100%;
+    padding: 1em 0;
+    font-size: 1.25em;
+    background-color: white;
+}
+
+.container{
+    max-width: 90%;
+    margin: 0 auto;
+    clear: both;
+}
+.container::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.testimonials{
+    width: 100%;
+    padding: 1em 0;
+    font-size: 1.25em;
+    background-color: plum
+}
+.testimonials-text{
+    float: left;
+    width: 75%;
+}
+.testimonial{
+    margin-bottom: .75em;
+}
+.testimonial-image{
+    float: right;
+}
+.product-version-title{
+    padding: 1em 0;
+    font-size: 2em;
+    text-align: center;
+}
+.product-versions{
+    padding: 1em 0;
+    background-color: plum;
+}
+.product-version{
+    float: left;
+    width: 33.33%;
+    border: 1px solid gray;
+    text-align: center;
+    background-color: white;
+}
+.version-title{
+    padding: .75em;
+    font-size: 1.5em;
+}
+.version-price{
+    padding: .75em 0;
+    font-size: 2em;
+    background-color: lightgrey;
+}.version-item{
+    border-bottom: 1px solid gray;
+    width: 100%;
+    padding: .75em 0;
+    font-size: 1.25em;
+}
+.version-item:last-child{
+    border-bottom: 0;
+}
+.btn-plain{
+    font-weight: normal;
+    color: black;
+    background-color: lightgray ;
+}
+.version-price-featured{
+    color: white;
+    background-color: darkorchid;
+}
+.social{
+    padding: 1em 0;
+    font-size: 1.5em;
+    text-align: center;
+} #A
+.social-links{
+    margin-top: .75em;
+}
+.social-link{
+    margin:0 .25em;
+}
+.footer{
+    padding:1em;
+    font-variant: small-caps;
+    text-align: center;
+    background-color: lightgray;
+}
+.footer-links{
+    margin-bottom:.75em;
+    font-size: 1.5em;
+}
+.footer-link{
+    margin:0 .5em;
+}
+.copyright{
+    font-style:italic;
+    font-size: 1em;
+}
