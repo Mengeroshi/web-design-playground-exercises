@@ -5,23 +5,24 @@
     font-size: 100%;
 }
 
-
-.dov{
-    display:flex;
-    align-items: center;
-    height: 70vh;
-    width: 100vw;
-
-}
-
 div{
 
     color: white;
-    font-size: 10px;
+    font-size: 100px;
     font-family:monospace;
+    width: 400px;
+}
+.dov{
+    display:flex;
+    height: 70vh;
+    width: 100vw;
+    flex-direction: row;
+    width: 1200px;
+
 }
 .itemA{
     background-color: red;
+    flex-shrink: 0;
 }
 .itemB{
     background-color: plum;
@@ -34,7 +35,9 @@ div{
 }
 .itemE{
     background-color: brown;
+    flex-shrink: 1;
 }
 .itemF{
     background-color: black;
+    flex-shrink: 2;
 }

@@ -8,7 +8,6 @@
 
 .dov{
     display:flex;
-    align-items: center;
     height: 70vh;
     width: 100vw;
 
@@ -17,14 +16,16 @@
 div{
 
     color: white;
-    font-size: 10px;
+    font-size: 100px;
     font-family:monospace;
 }
 .itemA{
     background-color: red;
+    flex-grow: 1;
 }
 .itemB{
     background-color: plum;
+    flex-grow: 2;
 }
 .itemC{
     background-color: purple;
