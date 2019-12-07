@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+div{
+
+    color: white;
+    font-family:monospace;
+}
+.dov{
+    display:flex;
+    height: 70vh;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1200px;
+
+}
+.itemA{
+    background-color: red;
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-basis: 200px;
+}
+.itemB{
+    background-color: plum;
+    flex-basis: auto;
+    font-size: small;
+}
+.itemC{
+    background-color: purple;
+    flex-basis: 200px;
+}
+.itemD{
+    background-color: green;
+    flex: 2 2 10em; 
+}
+.itemE{
+    background-color: brown;
+    flex-basis: 500px;
+}
+.itemF{
+    background-color: black;
+    flex-basis: auto;
+}

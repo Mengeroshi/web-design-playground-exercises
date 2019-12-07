@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+
+.dov{
+    display:flex;
+    height: 70vh;
+    width: 100vw;
+
+}
+
+div{
+
+    color: white;
+    font-size: 100px;
+    height: 200px;
+    font-family:monospace;
+}
+.itemA{
+    background-color: red;
+}
+.itemB{
+    background-color: plum;
+    order: 1;
+}
+.itemC{
+    background-color: purple;
+}
+.itemD{
+    background-color: green;
+    align-self: flex-end;
+}
+.itemE{
+    background-color: brown;
+    order: -1;
+    align-self: flex-end;
+}
+.itemF{
+    background-color: black;
+}
