@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 50em;
+    min-height: 100vh;
+}
+nav{
+    padding: .5em;
+    border: 1px solid black;
+}
+nav ul{
+    display:flex;
+    justify-content: flex-start;
+    list-style-type: none;
+    padding-left: .5em;
+}
+nav li{
+    padding-right: 1.5em;
+}
