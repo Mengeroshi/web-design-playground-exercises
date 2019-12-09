@@ -28,7 +28,19 @@ aside{
     flex-shrink: 0;
     flex-basis: 150px;
 }
-
+@media(max-width: 450px){
+    /*article{
+        float:none;
+        width:100%;
+    }
+    aside{
+        float:none;
+        width:100%;
+    }*/
+    h1{
+        font-size:24px;
+    }
+}
 
 
 
