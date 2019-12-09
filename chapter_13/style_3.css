@@ -41,8 +41,14 @@ aside{
         font-size:24px;
     }
 }
-
-
+.quotation{
+    display: none;
+}
+@media(min-width:750px){
+    .quotation{
+        display: block;
+    }
+}
 
 
 /*Colors------*/
