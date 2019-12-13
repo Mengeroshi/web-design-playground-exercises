@@ -1,0 +1,19 @@
+
+
+div{
+    height: 175px;
+    width: 100%;
+}
+.uno{
+    background-color: blue;
+    background-image: linear-gradient(to bottom, magenta,blue);
+    
+}
+.dos{
+    background-color: blue;
+    background-image: linear-gradient(to top right, red, white 25%, blue );
+}
+.radial{
+    background-color: blue;
+    background-image: radial-gradient(ellipse farthest-corner at left top, magenta, blue);
+}
