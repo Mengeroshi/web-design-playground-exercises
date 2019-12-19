@@ -1,0 +1,8 @@
+div{
+    font-family: Georgia, serif;
+    font-weight: normal;
+}
+h1 ~ div{
+    font-family: Verdana, sans-serif;
+    font-weight: bold;
+}

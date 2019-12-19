@@ -1,0 +1,16 @@
+
+h1{
+    text-align: center;
+}
+#section-quote{
+    color: darkgray;
+    font-size: 1.25em;
+    font-style: italic;
+    text-align: right;
+}
+#section-summary{
+    color: dimgray;
+    font-size: 1.25em;
+    font-weight: bold;
+    text-align: center;
+}

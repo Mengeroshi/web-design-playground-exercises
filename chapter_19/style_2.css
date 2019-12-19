@@ -1,0 +1,10 @@
+body{
+    color: blue;
+    font-family: Verdana, sans-serif;
+    font-size: 1.2em;
+}
+div p{
+    color: purple;
+    font-family: Georgia, serif;
+    font-size: 0.75em;
+}
