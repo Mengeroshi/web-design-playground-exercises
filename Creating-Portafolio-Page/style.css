@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    min-height: 100vh;
+    margin-top: 1rem;
+    font-family: "Open Sans", Verdana, sans-serif;
+    background-color: #8feebb;
+    /*background-image: radial-gradient(circle farthest-side at center top,
+    hsl(0, 0%,100%) 0%, #66a182 100%);*/
+    color: #194c4d;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 60rem;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .5rem 0;
+    width: 100%;
+}
+.header-left{
+    flex: 1 0 33%;
+    text-align: left;
+}
+.header-right{
+    flex: 2 0 67%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+h1{
+    padding-top: 1rem;
+}
+.btn{
+    background-color:  #194c4d;
+    color: #8feebb;
+    padding: .25rem .75rem;
+    border-radius: .75rem;
+    text-transform: uppercase;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+}
+nav li{
+    padding-left: 1rem;
+
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: #194c4d;
+    background-color: #50cc8a ;
+}
+h1{
+    font-size: 4rem;
+    font-family: Alatsi;
+    font-weight: lighter;
+}
+.intro{
+    display: flex;
+    align-items: center;
+    margin: 2rem 0;
+    width: 100%;
+    border: 3px solid #439a86;
+    background-color: #49a078;
+}
+.intro-text{
+    flex: 2 0 67%;
+    padding: 2rem 0 2rem 2rem;
+}
+.intro-text p{
+    margin: 1.5rem 0;
+}
+
+.intro-image{
+    flex: 1 0 33%;
+    padding-right: 2rem;
+    text-align: right;
+}
+h2{
+    font-size: 2.5rem;
+}
+h3{
+    font-size: 2rem;
+    font-size: italic;
+}
+h2, h3{
+    font-family: Alatsi;
+}
+
+.portafolio{
+    margin-bottom: 1rem;
+}
+.portafolio-text p{
+    margin: .5rem 0 1.5rem;
+    font-size: 1.25rem;
+}
+.portafolio-images{
+    display: flex;
+    justify-content: space-between;
+}
+.portafolio-image{
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 1rem;
+
+}
+.image-overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width:150px;
+    height: 150px;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 1.5 ease;
+}
+.image-overlay:hover{
+    opacity:1;
+}
+.about{
+    margin: .5rem
+}
+.about-text  p{
+    margin: .5rem 0 1.5rem;
+    font-size: 1.25rem;
+}
+
+.contact{
+    margin-bottom: 1rem;
+}
+
+.contact-text p{
+    margin: .5rem 0 1.5rem;
+    font-size: 1.25rem;
+}
+.contact-social-links a{
+    margin-right: 1.5rem;
+}
+
+footer{
+    display: flex;
+    padding: 1em 0;
+    border-top: 1px solid #49a078;
+}
+.footer-copyright{
+    flex: 1 0 50%;
+    text-align: left;
+    font-style: italic;
+    font-size: 1.25rem;
+}
+.footer-links{
+    flex: 1 0 50%;
+    text-align: right;
+    font-size: 1.25rem;
+}
+.footer-links a{
+    color: #194c4d;
+    margin-left: 1em;
+}
